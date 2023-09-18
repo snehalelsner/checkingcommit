@@ -11,7 +11,7 @@ import {
 const App = () => {
   const [Visible, setVisible] = useState(false);
   const [data, setData] = useState('');
-  const [selectedvalue, setSelectedValue] = useState(['Select']);
+  const [selectedvalue, setSelectedValue] = useState(['Select...']);
 
   const DropDown = () => {
     setVisible(!Visible);
